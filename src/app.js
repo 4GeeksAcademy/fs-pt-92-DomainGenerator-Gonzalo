@@ -72,10 +72,6 @@ function formatDomainHack(domainName, domain) {
   return domainName.slice(0, domainName.indexOf(domain)) + "." + domain;
 }
 
-function generateRandomNumber(max) {
-  return Math.floor(Math.random() * max);
-}
-
 // VERSIÓN ANTIGUA
 // function generateDomains() {
 //   for (let article of articles) {
